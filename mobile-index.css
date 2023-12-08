@@ -1,0 +1,20 @@
+@media(max-width: 600px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        overflow-x: hidden;
+    }
+
+    .navbar{
+        flex-direction: column;
+        height: 7rem;
+    }
+
+    .navbar-links{
+        position: relative;
+        top: -28%;
+    }
+
+}
