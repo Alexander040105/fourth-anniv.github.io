@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'EB Garamond', serif;*/
     max-width: 1920;
     max-height: 1080;
 
@@ -15,7 +15,10 @@ body{
     color: #515931;
 }
 
-
+.section1{
+    background-image: url(/images/background1.png);
+    background-size: cover;
+}
 
 .navbar {
     display: flex;
@@ -27,14 +30,14 @@ body{
  
 
 .brand-title{
-    font-family: sans-serif;
-    margin: .5rem;
+    font-family: 'Oswald', sans-serif;
 }
 
 .brand-title a{
-    font-size: 1rem;
+    font-size: .75rem;
     text-decoration: none;
-    color: #515931;
+    color: #fbfbfb;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -52,19 +55,17 @@ body{
 /*Styles of the link*/
 .navbar-links li a{
     text-decoration: none;
-    color: #515931;
+    color: #fbfbfb;
     padding: 1rem;
     display: block;
     cursor: pointer;
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+    font-size: .75rem;
+    font-family: 'Oswald', sans-serif;
 }
 
 .navbar-links li a:hover{
     background: #515931;
     color: #B7BF99;
-    font-family: 'Poppins', sans-serif;
 }
 
 /* 3 bar buttons styling to none */
@@ -90,4 +91,21 @@ body{
 #menustate{
     height: 10px;
     width: 100%;
+}
+
+.header h1,h2{
+    color: #fbfbfb;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: .25rem;
+}
+
+.header h2{
+    font-size: .6rem;
+    word-spacing: .5rem;
 }
