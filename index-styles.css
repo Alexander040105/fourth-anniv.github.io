@@ -67,3 +67,18 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#artists{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    padding: .5rem;
+    transition: transform .2s;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.artist-list1 a{
+    text-decoration: none;
+    color: #F3F3F3;
+}
