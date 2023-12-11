@@ -68,6 +68,20 @@ h1{
     background-size: cover;
 }
 
+.section4{
+    height: 100rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-image: url(/images/background4.png);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #artists{
     height: 10rem;
     width: 10rem;

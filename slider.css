@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#artists{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    padding: .5rem;
+    transition: transform .2s;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.artist-names{
+    width: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.artist-names a{
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+.slider-wrapper .image-list{
+    display: grid;
+    gap: 5rem;
+    overflow-x: auto;
+    margin-bottom: 15px;
+    scrollbar-width: none;
+    grid-template-columns: repeat(20, 10%);
+    scrollbar-width: none;
+}
+
+.slider-wrapper .image-list .artist-names{
+    height: 20rem;
+    width: 16rem;
+    object-fit: cover;
+}
+
+.slider-wrapper .image-list::-webkit-scrollbar{
+    display: none;
+}
+
+.container .slider-scrollbar{
+    height: 2rem;
+    width: 100%;
+    background: red;
+    display: flex;
+    align-items: center
+;
+}
+
+.slider-scrollbar .scrollbar-track {
+    height: 2px;
+    width: 100%;
+    background: white;
+}
+.slider-scrollbar .scrollbar-thumb{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: red;
+}
