@@ -5,6 +5,7 @@ html,body{
     margin: 0;
     overflow-x: hidden;
     font-family: 'Nunito', sans-serif;
+    background-color: #F22973;
 }
 
 .section1{
@@ -30,7 +31,6 @@ html,body{
 h1{
     font-weight: 1000;
     font-size: 5rem;
-    color: #F3F3F3;
 }
 
 .section2{
@@ -55,10 +55,10 @@ h1{
 }
 
 .section3{
-    height: 100rem;
-    display: flex;
+    height: 35rem;
+    /* display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
     text-align: center;
     background-image: url(/images/background4.png);
 
@@ -66,15 +66,22 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.section3 h1{
+    position: relative;
+    top: 2.5rem;
+    color: #F3F3F3;
 }
 
 .section4{
-    height: 100rem;
+    height: 70rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    background-image: url(/images/background4.png);
+    background-color: #F22973;
+    color: #F3F3F3;
 
     background-attachment: fixed;
     background-position: center;
@@ -82,7 +89,51 @@ h1{
     background-size: cover;
 }
 
-#artists{
+.section5{
+    height: 70rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #F3F3F3;
+    color: #F22973;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.section6{
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #F3F3F3;
+    color: #F22973;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.section4 a{
+    color: #F3F3F3;
+}
+
+.section6 a{
+    color: #F22973;
+}
+
+.section5 a{
+    color: #F22973;
+}
+
+/* #artists{
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
@@ -101,8 +152,31 @@ h1{
 .artist-list1 a{
     text-decoration: none;
     color: #F3F3F3;
+} */
+
+/* .artist-names{
+    width: 16rem;
+} */
+
+.artist-tracks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.artist-names{
-    width: 16rem;
+.tracks{
+    width: 15rem;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tracks img{
+    width: 12rem;
+    height: 12rem;
+}
+
+.tracks a{
+    text-decoration: none;
 }

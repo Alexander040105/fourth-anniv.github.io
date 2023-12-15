@@ -1,4 +1,4 @@
-@media(max-width: 600px){
+@media(max-width: 1023px){
     html,body{
         width: 100%;
         height: 100%;
@@ -25,5 +25,9 @@
     .section2 p{
         font-size: .80rem;
         line-height: 1rem;
+    }
+
+    .section3{
+        height: 40rem;
     }
 }
