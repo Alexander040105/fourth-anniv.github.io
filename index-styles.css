@@ -6,6 +6,8 @@ html,body{
     overflow-x: hidden;
     font-family: 'Nunito', sans-serif;
     background-color: #F22973;
+    scroll-behavior: smooth;
+    scroll-padding: -5rem;
 }
 
 .section1{
@@ -165,7 +167,7 @@ h1{
 }
 
 .tracks{
-    width: 15rem;
+    width: 18rem;
     height: 20rem;
     display: flex;
     align-items: center;

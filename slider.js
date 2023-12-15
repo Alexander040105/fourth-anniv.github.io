@@ -58,4 +58,7 @@ const initSlider = () => {
     });
 }
 
+
+
+
 window.addEventListener("load", initSlider)

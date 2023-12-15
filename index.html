@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
     <script src="slider.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <title>Happy 4th:)</title>
 </head>
 <body>
@@ -36,42 +37,42 @@
     <div class="section3">
         <div class="contents">
             <h1>ARTISTS</h1>
-            <div class="container">
+            <div class="container" id="list-musicians">
 
                 <div class="slider-wrapper">
                     <button id="prev-slide" class="slide-button material-symbols-outlined">chevron_left</button>
                     <div class="image-list">
     
                         <div class="artist-names">
-                            <a href="#5sos">
+                            <a href="#5sos" class="5sos">
                                 <img id="artists" src="/images/band-dp/5sos.jpg" alt="#5sos">
                                 <h2>5 Seconds Of Summer</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#tswift">
+                            <a href="#tswift" class="tswift">
                                 <img id="artists" src="/images/band-dp/tswift.jpg" alt="#tswift">
                                 <h2>Taylor Swift</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#stayc" class="stayc">
                                 <img id="artists" src="/images/band-dp/stayc.jpg" alt="#">
                                 <h2>STAYC</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#nflying" class="nflying">
                                 <img id="artists" src="/images/band-dp/nflying.jpg" alt="#">
                                 <h2>N.Flying</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#ovo" class="ovo">
                                 <img id="artists" src="/images/band-dp/overoctober.jpg" alt="#">
                                 <h2>Over October</h2>
                             </a>
@@ -79,35 +80,35 @@
         
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#peggies" class="peggies">
                                 <img id="artists" src="/images/band-dp/thepeggies.jpg" alt="#">
                                 <h2>The Peggies</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#yorushika" class="yorushika">
                                 <img id="artists" src="/images/band-dp/yorushika.jpg" alt="#">
                                 <h2>Yorushika</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#jannabi" class="jannabi">
                                 <img id="artists" src="/images/band-dp/jannabi.jpg" alt="#">
                                 <h2>JANNABI</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#onewe" class="onewe"> 
                                 <img id="artists" src="/images/band-dp/onewe.jpg" alt="#">
                                 <h2>ONEWE</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#lucy" class="lucy">
                                 <img id="artists" src="/images/band-dp/lucy.jpg" alt="#">
                                 <h2>LUCY</h2>
                             </a>
@@ -116,35 +117,35 @@
         
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#lola-amour" class="lola-amour">
                                 <img id="artists" src="/images/band-dp/lolaamour.jpg" alt="#">
                                 <h2>Lola Amour</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#dilaw" class="dilaw">
                                 <img id="artists" src="/images/band-dp/dilaw.jpg" alt="#">
                                 <h2>Dilaw</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#the-ridleys" class="the-ridleys">
                                 <img id="artists" src="/images/band-dp/theridleys.jpg" alt="#">
                                 <h2>The Ridleys</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#qwer" class="qwer">
                                 <img id="artists" src="/images/band-dp/qwer.jpg" alt="#">
                                 <h2>QWER</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#mayonnaise" class="mayonnaise">
                                 <img id="artists" src="/images/band-dp/mayonnaise.jpg" alt="#">
                                 <h2>Mayonnaise</h2>
                             </a>
@@ -152,35 +153,35 @@
         
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#the-rose" class="the-rose">
                                 <img id="artists" src="/images/band-dp/therose.jpg" alt="#">
                                 <h2>The Rose</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#kda" class="kda">
                                 <img id="artists" src="/images/band-dp/g-idle.jpg" alt="#">
                                 <h2>(G)I-DLE</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#sunkissed-lola" class="sunkissed-lola">
                                 <img id="artists" src="/images/band-dp/sunkissedlola.jpg" alt="#">
                                 <h2>Sunkissed Lola</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#gaho" class="gaho">
                                 <img id="artists" src="/images/band-dp/gaho.jpg" alt="#">
                                 <h2>Gaho</h2>
                             </a>
                         </div>
         
                         <div class="artist-names">
-                            <a href="#">
+                            <a href="#laufey" class="laufey">
                                 <img id="artists" src="/images/band-dp/laufey.jpg" alt="#">
                                 <h2>Laufey</h2>
                             </a>
@@ -424,7 +425,7 @@
 
     <!-- nflying -->
     <div class="section5">
-        <div class="section-contents" id="tswift">
+        <div class="section-contents" id="nflying">
             <h1>N.Flying</h1>
             
             <div class="artist-tracks">
@@ -481,7 +482,7 @@
 
     <!-- OVEROCTOBER -->
     <div class="section4">
-        <div class="section-contents" id="tswift">
+        <div class="section-contents" id="ovo">
             <h1>Over October</h1>
             
             <div class="artist-tracks">
@@ -538,7 +539,7 @@
 
     <!-- the peggies -->
     <div class="section5">
-        <div class="section-contents" id="tswift">
+        <div class="section-contents" id="peggies">
             <h1>The Peggies</h1>
             
             <div class="artist-tracks">
@@ -595,7 +596,7 @@
 
     <!-- yorushika-->
     <div class="section4">
-        <div class="section-contents" id="tswift">
+        <div class="section-contents" id="yorushika">
             <h1>Yorushika</h1>
             
             <div class="artist-tracks">
@@ -653,7 +654,7 @@
 
     <!-- jannabi -->
     <div class="section5">
-        <div class="section-contents" id="tswift">
+        <div class="section-contents" id="jannabi">
             <h1>JANNABI</h1>
             
             <div class="artist-tracks">
@@ -710,7 +711,7 @@
 
     <!-- ONEWE -->
     <div class="section4">
-        <div class="section-contents" id="tswift">
+        <div class="section-contents" id="onewe">
             <h1>ONEWE</h1>
             
             <div class="artist-tracks">
@@ -767,7 +768,7 @@
     
     <!-- LUCY -->
     <div class="section5">
-        <div class="section-contents" id="tswift">
+        <div class="section-contents" id="lucy">
             <h1>LUCY</h1>
             
             <div class="artist-tracks">
@@ -824,7 +825,7 @@
     
     <!-- LOLA AMOUR -->
     <div class="section4">
-        <div class="section-contents" id="tswift">
+        <div class="section-contents" id="lola-amour">
             <h1>Lola Amour</h1>
             
             <div class="artist-tracks">
@@ -881,7 +882,7 @@
 
     <!-- DILAW -->
     <div class="section5">
-        <div class="section-contents" id="tswift">
+        <div class="section-contents" id="dilaw">
             <h1>DILAW</h1>
             
             <div class="artist-tracks">
@@ -938,7 +939,7 @@
 
     <!-- The Ridleys -->
     <div class="section4">
-        <div class="section-contents" id="tswift">
+        <div class="section-contents" id="the-ridleys">
             <h1>The Ridleys</h1>
             
             <div class="artist-tracks">
@@ -995,7 +996,7 @@
 
     <!-- QWER -->
     <div class="section6">
-        <div class="section-contents" id="tswift">
+        <div class="section-contents" id="qwer">
             <h1>QWER</h1>
             
             <div class="artist-tracks">
@@ -1027,7 +1028,7 @@
 
     <!-- Mayonnaise -->
     <div class="section4">
-        <div class="section-contents" id="tswift">
+        <div class="section-contents" id="mayonnaise">
             <h1>Mayonnaise</h1>
             
             <div class="artist-tracks">
@@ -1035,7 +1036,7 @@
                 <div class="tracks">
                     <a href="">
                         <img src="" alt="">
-                        <h2>Tayo Na Lang Dalawa</h2>
+                        <h2 style="font-size: 1.35rem;">Tayo Na Lang Dalawa</h2>
                     </a>
                 </div>
 
@@ -1084,7 +1085,7 @@
 
     <!-- The Rose -->
     <div class="section5">
-        <div class="section-contents" id="tswift">
+        <div class="section-contents" id="the-rose">
             <h1>The Rose</h1>
             
             <div class="artist-tracks">
@@ -1141,7 +1142,7 @@
 
     <!-- (G)I-DLE -->
     <div class="section4">
-        <div class="section-contents" id="tswift">
+        <div class="section-contents" id="kda">
             <h1>(G)I-DLE</h1>
             
             <div class="artist-tracks">
@@ -1196,10 +1197,10 @@
         </div>
     </div>
 
-    <!-- QWER -->
+    <!-- Sunkissed Lola -->
     <div class="section6">
-        <div class="section-contents" id="tswift">
-            <h1>QWER</h1>
+        <div class="section-contents" id="sunkissed-lola">
+            <h1>Sunkissed Lola</h1>
             
             <div class="artist-tracks">
 
@@ -1228,5 +1229,86 @@
         </div>
     </div>
 
+    <!-- GAHO -->
+    <div class="section4">
+        <div class="section-contents" id="gaho">
+            <h1>GAHO</h1>
+            
+            <div class="artist-tracks">
+
+                <div class="tracks">
+                    <a href="">
+                        <img src="" alt="">
+                        <h2>Running</h2>
+                    </a>
+                </div>
+
+                <div class="tracks">
+                    <a href="">
+                        <img src="" alt="">
+                        <h2>Start</h2>
+                    </a>
+                </div>
+
+                <div class="tracks">
+                    <a href="">
+                        <img src="" alt="">
+                        <h2>Beautiful Night</h2>
+                    </a>
+                </div>
+                
+                <div class="tracks">
+                    <a href="">
+                        <img src="" alt="">
+                        <h2>Lost My Way</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Laufey -->
+    <div class="section5">
+        <div class="section-contents" id="laufey">
+            <h1>Laufey</h1>
+            
+            <div class="artist-tracks">
+
+                <div class="tracks">
+                    <a href="">
+                        <img src="" alt="">
+                        <h2>From the Start</h2>
+                    </a>
+                </div>
+
+                <div class="tracks">
+                    <a href="">
+                        <img src="" alt="">
+                        <h2>I Wish You Love</h2>
+                    </a>
+                </div>
+
+                <div class="tracks">
+                    <a href="">
+                        <img src="" alt="">
+                        <h2>Falling Behind</h2>
+                    </a>
+                </div>
+                
+                <div class="tracks">
+                    <a href="">
+                        <img src="" alt="">
+                        <h2 style="font-size: 1.098rem;">Letter To My 13 Year Old Self</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script>
+    
+    </script>
 </body>
 </html>
