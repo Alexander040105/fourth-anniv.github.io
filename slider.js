@@ -4,6 +4,7 @@ const initSlider = () => {
     const sliderScrollbar = document.querySelector(".container .slider-scrollbar");
     const scrollbarThumb = document.querySelector(".scrollbar-thumb");
     const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
+    const backTop = document.querySelector(".go-nav");
 
     scrollbarThumb.addEventListener("mousedown", (e) => {
         const startX = e.clientX;

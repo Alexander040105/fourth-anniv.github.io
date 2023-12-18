@@ -182,3 +182,36 @@ h1{
 .tracks a{
     text-decoration: none;
 }
+
+.go-nav{
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #F22973;
+    color: #F3F3F3;
+    height: 3rem;
+    width: 7rem;
+    text-align: center;
+}
+
+.go-nav:hover{
+    color: #F22973;
+    background-color: #F3F3F3;
+}
+
+.go-nav a{
+    cursor: pointer;
+    color: #F3F3F3;
+    text-decoration: none;
+    text-align: center;
+}
+
+.go-nav a:hover{
+    cursor: pointer;
+    color: #F22973;
+    text-decoration: none;
+    text-align: center;
+}
