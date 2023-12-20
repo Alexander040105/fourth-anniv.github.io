@@ -1,6 +1,6 @@
 const initQuiz = () => {
-    let questions = ["Bias ko sa STAYC?", "Who's our dog"];
-    const answers = ["yoon", "dot"];
+    let questions = ["Bias ko sa STAYC?", "Who's our dog", "Where it all started?", 'Comeback year?', "First year as a couple:)"];
+    const answers = ["yoon", "dot", 'merryhills', '2019', '2020'];
     let questionContainer = document.getElementById("question");
     questionContainer.textContent = questions[0];
     const submitButton = document.getElementById("submit-button");
@@ -14,6 +14,14 @@ const initQuiz = () => {
         checkingAnswers();
     });
 
+    userAnswer.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            buttonClicked = true;
+            checkingAnswers();
+        }
+    });
+
     const checkingAnswers = () => {
         if (questionIndex < questions.length) {
             const correctAnswer = answers[questionIndex].toLowerCase();
@@ -21,19 +29,20 @@ const initQuiz = () => {
 
             if (enteredAnswer === correctAnswer && buttonClicked === true) {
                 checking.textContent = 'You are tama!';
+                userAnswer.value = '';
                 // Move to the next question
                 questionIndex++;
 
                 if (questionIndex < questions.length) {
                     questionContainer.textContent = questions[questionIndex];
-                    userAnswer.textContent = '';
                 } else {
                     questionContainer.textContent = "Done!";
                     // Add your redirection logic here
-                    window.location.href = 'index.html';
+                    window.location.href = 'index2.html';
                 }
             } else {
                 checking.textContent = 'You are wrong! Try again::)';
+                userAnswer.textContent = '';
             }
         }
     };
