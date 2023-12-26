@@ -1,4 +1,4 @@
-@media(max-width: 1023px){
+@media(max-width: 1024px){
     html,body{
         width: 100%;
         height: 100%;
@@ -9,6 +9,13 @@
 
     .section1, .section3{
         height: 23rem;
+    }
+
+    .hesitate{
+        font-size: .8rem;
+    }
+    .hesitate2{
+        font-size: .75rem;
     }
     
     h1{
@@ -29,5 +36,101 @@
 
     .section3{
         height: 40rem;
+    }
+    .artist-tracks{
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .tracks{
+        width: 8rem;
+        height: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .tracks img{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    h2{
+        font-size: .8rem;
+    }
+
+
+    .section4, .section5{
+        height: 40rem;
+    }
+
+    .section6, #section6{
+        height: 40rem;
+    }
+
+    .go-nav{
+        width: 5rem;
+        left: 80%;
+    }
+
+    .go-nav:hover{
+        color: #F22973;
+        background-color: #F3F3F3;
+    }
+    
+    .go-nav a{
+        cursor: pointer;
+        color: #F3F3F3;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .go-nav a:hover{
+        cursor: pointer;
+        color: #F22973;
+        text-decoration: none;
+        text-align: center;
+    }
+}
+
+@media(max-width: 605px){
+    h1{
+        font-size: 2rem;
+    }
+    .artist-tracks{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tracks{
+        width: 8rem;
+        height: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section4, .section5{
+        height: 100rem;
+    }
+
+    .hesitate{
+        font-size: .8rem;
+    }
+
+    .section6, #section6{
+        height: 75rem;
+    }
+
+    #section7{
+        height: 50rem;
+    }
+    .go-nav{
+        width: 4rem;
+        left: 75%;
     }
 }

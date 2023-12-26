@@ -188,3 +188,10 @@
         top: 65%;
     }
 }
+
+@media(max-width: 605px){
+    #artists{
+        width: 6rem;
+        height: 6rem;
+    }
+}
